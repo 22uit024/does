@@ -1,0 +1,53 @@
+<html>
+<body>
+<center>
+<section>
+    <h2>Place Your Order</h2>
+    <option value="vanilla">Vanilla</option>
+        <form action="thankyou.html" method="post">
+      <label for="flavor">Select Ice Cream Flavor:</label>
+      <select id="flavor" name="flavor">
+        <option value="chocolate">Chocolate</option>
+        <option value="chocolate">Vanilla</option>
+	<option value="chocolate">Strawberry</option>
+        <!-- Add more flavors as needed -->
+      </select><br>
+
+      <label for="topping">Select Topping:</label>
+      <select id="topping" name="topping">
+        <!-- Include your topping options here -->
+        <option value="sprinkles">Sprinkles</option>
+        <option value="chocolate-sauce">Chocolate Sauce</option>
+        <!-- Add more toppings as needed -->
+      </select><br>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required><br>
+
+      <input type="submit" value="Place Order">
+    </form>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <img src="about-image.jpg" alt="Ice Cream Shop Owners">
+    <p>Get to know the passionate team behind Ice Cream Delights. We are dedicated to bringing joy to your taste buds!</p>
+  </section>
+<style>
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+</style>
+<center>
+<a href="web1.html" class="button">Click me to contact us!</a>
+
+</center>
+</body>
+</html>
